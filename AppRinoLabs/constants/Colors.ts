@@ -3,24 +3,26 @@
  * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
  */
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    bgColor: '#e0e0e0',
+    primaryColor: '#9f2241',
+    secondaryColor: '#69a8a4',
+    sectionColor: '#C0C0C0',
+    textColor: '#4b4b4b',
+    textColorSecondary: '#fff',
+    hoverColor: '#7fc7c3',
+    
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    bgColor: '#2f2f2f', // o '#333' o '#444' #11181C 
+    primaryColor: '#9f2241', // o '#ff6347' o '#ff8c00' o '#ff3737'
+    secondaryColor: '#4b5656', // o '#5c6666' o '#666'
+    sectionColor: '#555',
+    textColor: '#fff',
+    textColorSecondary: '#0a7ea4',
+    hoverColor: '#5c5c5c',
   },
 };
+
+
